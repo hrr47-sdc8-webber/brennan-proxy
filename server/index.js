@@ -1,9 +1,12 @@
+const newrelic = require('newrelic');
 const express = require('express');
+const cors = require('cors');
 const { createProxyMiddleware } = require('http-proxy-middleware');
 
 const app = express();
 const port = 3000;
 
+app.use(cors());
 app.use('/:id', express.static('public'));
 
 // Photo Carousel
@@ -16,8 +19,8 @@ app.use('/:copyId/restaurants/:id', createProxyMiddleware({ target: 'http://loca
 app.use('/api/tips/:id', createProxyMiddleware({ target: 'http://localhost:6070', changeOrigin: true }));
 app.use('/api/articles/:id', createProxyMiddleware({ target: 'http://localhost:6070', changeOrigin: true }));
 
-// Similar Restaurants
-app.use('/restaurants/:id', createProxyMiddleware({ target: 'http://localhost:3004', changeOrigin: true }));
+/* // Similar Restaurants
+app.use('/restaurants/:id', createProxyMiddleware({ target: 'http://localhost:3004', changeOrigin: true })); */
 
 app.listen(port, () => {
   console.log(`Listening on port ${port}`);
