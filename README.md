@@ -1,6 +1,5 @@
-# Zigat.com
-> This webpage is inspired by Zagat.com website and their restaurant information page.
-Example: https://www.zagat.com/r/smoque-bbq-chicago
+# Re:View
+> A restaurant review website. 
 
 > It has a photo carousel at the top, an information section, a sidebar showing opening hours and a map to their location, a section with tips and articles related to the restaurant, and a grid showing similar restaurants by category and neighborhood.
 
