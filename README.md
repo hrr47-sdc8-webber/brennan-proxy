@@ -33,4 +33,4 @@ To initialize the page:
 ```sh
 npm start
 ```
-All services must be running individually in order for the full page to render.
+All services must be running individually in order for the full page to render. Otherwise, this is a fairly simple proxy page that renders all Re:View modules. In order to access a particular product ID, direct the browser to /:id. All services have been optimized for 10M primary records, so any id between 1 and 10000000 will work. Happy viewing!
