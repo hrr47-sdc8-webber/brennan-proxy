@@ -1,13 +1,11 @@
 # Re:View
-> A restaurant review website. 
-
-> It has a photo carousel at the top, an information section, a sidebar showing opening hours and a map to their location, a section with tips and articles related to the restaurant, and a grid showing similar restaurants by category and neighborhood.
+> Proxy server for Re:View, a restaurant rating website. There is a photo carousel at top, followed by an information section, a sidebar showing opening hours and a map to their location, a section with tips and articles related to the restaurant, and a grid showing similar restaurants by category and neighborhood.
 
 ## Individual Projects
-  - https://github.com/FEC-7-Stevens/photo-carousel-service
-  - https://github.com/FEC-7-Stevens/info-sidebar-service
-  - https://github.com/FEC-7-Stevens/tips-recommendations-service
-  - https://github.com/FEC-7-Stevens/similar-restaurants-service
+  - https://github.com/hrr47-sdc8-webber/photo-carousel-service
+  - https://github.com/hrr47-sdc8-webber/info-sidebar-service
+  - https://github.com/hrr47-sdc8-webber/tips-recommendations-service
+  - https://github.com/hrr47-sdc8-webber/similar-restaurants-service
 
 ## Table of Contents
 
@@ -19,8 +17,6 @@
 ## Requirements
 - Node v12.18.1
   - https://nodejs.org/
-- MySQL v5.7.31
-  - https://dev.mysql.com/
 
 
 ## Dependencies
@@ -37,3 +33,4 @@ To initialize the page:
 ```sh
 npm start
 ```
+All services must be running individually in order for the full page to render.
