@@ -1,5 +1,5 @@
 # Re:View
-> Proxy server for Re:View, a restaurant rating website. There is a photo carousel at top, followed by an information section, a sidebar showing opening hours and a map to their location, a section with tips and articles related to the restaurant, and a grid showing similar restaurants by category and neighborhood.
+Proxy server for Re:View, a restaurant rating website. There is a photo carousel at top, followed by an information section, a sidebar showing opening hours and a map to their location, a section with tips and articles related to the restaurant, and a grid showing similar restaurants by category and neighborhood.
 
 ## Individual Projects
   - https://github.com/hrr47-sdc8-webber/photo-carousel-service
